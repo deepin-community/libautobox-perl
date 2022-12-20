@@ -1,0 +1,16 @@
+Description: Spelling error
+Author: Xavier Guimard <x.guimard@free.fr>
+Forwarded: https://github.com/chocolateboy/autobox/issues/12
+Last-Update: 2018-05-10
+
+--- a/lib/autobox.pod
++++ b/lib/autobox.pod
+@@ -540,7 +540,7 @@
+ directly on native types produces the same results as calling them with autobox disabled
+ e.g.:
+ 
+-    42->isa('NUMBER') # "" (interpeted as "42"->isa("NUMBER"))
++    42->isa('NUMBER') # "" (interpreted as "42"->isa("NUMBER"))
+     []->can('push')   # Error: Can't call method "can" on unblessed reference
+ 
+ =head1 EXPORTS
